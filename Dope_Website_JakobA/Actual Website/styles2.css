@@ -11,10 +11,10 @@ h1 {
 body {
   font-family: Arial, sans-serif;
   line-height: 1.5;
-  background-color: lightgray;
+  background-color: rgb(231, 197, 164);
   color: #303030;
   margin: 0;
-  padding: 2rem 0;  /* spacing on top/bottom */
+  padding: 2rem 0;
 }
 
 .main-content {
@@ -46,11 +46,11 @@ body {
 }
 
 .dropdown input[type="checkbox"]:checked ~ .content {
-  max-height: 10000px; /* big enough to fit your text */
+  max-height: 10000px;
   padding: 10px;
 }
-.dropdown {
-  margin-bottom: 1.5rem; /* adds space between dropdown boxes */
+.dropdown .content {
+  padding-bottom: 1rem;
 }
 
 .dropdown label {
@@ -58,7 +58,7 @@ body {
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  background-color: #004080;   /* blue background */
+  background-color: #004080;  
   color: white;
   padding: 10px;
   border-radius: 5px;
@@ -77,4 +77,33 @@ body {
 /* Rotate the arrow when the box is open */
 .dropdown input[type="checkbox"]:checked + label::after {
   transform: rotate(90deg); /* points down when open */
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column; /* stack vertically */
+    gap: 20px;              /* spacing between boxes */
+    align-items: center;    /* center the boxes */
+    margin-top: 40px;
+}
+
+.btn {
+    display: block;
+    width: 50%;                     /* adjust as you like */
+    max-width: 400px;
+    padding: 20px 30px;
+    text-align: center;
+    background-color: rgb(240, 213, 164);      /* light box background */
+    border: 2px solid rgb(236, 149, 117);
+    border-radius: 12px;            /* rounded corners */
+    text-decoration: none;
+    font-size: 14px;
+    color: #333;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgb(241, 163, 99);
+    border-color: rgb(243, 103, 52);
+    transform: translateY(-2px);
 }

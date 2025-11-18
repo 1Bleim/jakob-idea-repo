@@ -13,19 +13,75 @@
         <h1>Explanation of how I built this Website</h1>
         <p>On this page you can find the follwing content:</p>
         <li>HTML Structure</li>
-        <li>CSS Structure</li>
         <li>Implementation of an API</li>
-        <li>bla</li>
-        <li>bla</li>
+        <li>Inserting a Picture</li>
+        <li>Creating Buttons</li>
+        <li>CSS Structure</li>
+        <li>GitHub</li>
         <p>Click on the sections to unfold and learn more!</p>
     </header>
 
+    <div class="dropdown">
+        <input type="checkbox" id="drop5" onclick="if(this.checked) loadMarkdown('html.md', 'content5')">
+        <label for="drop5"><h3>HTML Structure</h3></label>
+        
+        <div class="content">
+        <div id="content5"></div>
+    </div>
+
+    <div class="dropdown">
+        <input type="checkbox" id="drop6" onclick="if(this.checked) loadMarkdown('api.md', 'content6')">
+        <label for="drop6"><h3>Implementation of an API</h3></label>
+        
+        <div class="content">
+        <div id="content6"></div>
+    </div>
+
+     <div class="dropdown">
+        <input type="checkbox" id="drop7" onclick="if(this.checked) loadMarkdown('picture.md', 'content7')">
+        <label for="drop7"><h3>Inserting a Picture</h3></label>
+        
+        <div class="content">
+        <div id="content7"></div>
+    </div>
+
+    <div class="dropdown">
+        <input type="checkbox" id="drop8" onclick="if(this.checked) loadMarkdown('buttons.md', 'content8')">
+        <label for="drop8"><h3>Creating Buttons</h3></label>
+        
+        <div class="content">
+        <div id="content8"></div>
+    </div>
+
+     <div class="dropdown">
+        <input type="checkbox" id="drop9" onclick="if(this.checked) loadMarkdown('css.md', 'content9')">
+        <label for="drop9"><h3>CSS Structure</h3></label>
+        
+        <div class="content">
+        <div id="content9"></div>
+    </div>
+
+    <div class="dropdown">
+        <input type="checkbox" id="drop10" onclick="if(this.checked) loadMarkdown('github.md', 'content10')">
+        <label for="drop10"><h3>GitHub</h3></label>
+        
+        <div class="content">
+        <div id="content10"></div>
+    </div>
+
+
     <div class="container">
-        <p>Return to Landingpage:</p>
 
         <div class="button-group">
             <a href="landingpage.html" class="btn">Back to Landing Page</a>
         </div>
     </div>
 </body>
+<script>
+    async function loadMarkdown(filename, componentId) {
+    const response = await fetch(filename);
+    const text = await response.text();
+    document.getElementById(componentId).innerHTML = marked.parse(text);
+}
+</script>
 </html>
