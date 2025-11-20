@@ -1,10 +1,10 @@
 # References
-+ Aarhus University. (2025). Master’s degree programme in European Studies. Retrieved November 11, 2025, from https://masters.au.dk/europeanstudies
++ Aarhus University. (2025). *Master’s degree programme in European Studies*. Retrieved November 11, 2025, from https://masters.au.dk/europeanstudies
 + Aarhus University. (2021). *Academic regulations for Master's Degree Programme in European Studies (2021)*. Board of Studies, Department of Culture and Society. https://eddiprod.au.dk/EDDI/webservices/DokOrdningService.cfc?method=visGodkendtOrdning&dokOrdningId=16715&sprog=en
 + Adema, J., & Alipour, J. (2025). *Steigert Migration die Kriminalität? Ein datenbasierter Blick.* In (Vol. 6). ifo Schnelldienst digital. https://www.ifo.de/DocDL/sd-2025-digital-03-adema-alipour-migration-kriminalitaet.pdf
-+ Borgman, C. L. *Big Data, Little Data, No Data: Scholarship in the Networked World.* 1st ed., MIT Press, 2015, https://doi.org/10.7551/mitpress/9963.001.0001.
-+ Gorostiza-Cerviño, A., Serna-Ortega, Á., Moreno-Cabanillas, A., & Castillo-Esparcia, A. (2023). Navigating the Digital Sphere: Exploring Websites, Social Media, and Representation Costs—A European Union Case Study. Social Sciences (Basel), 12(11), 616. https://doi.org/10.3390/socsci12110616
-+ Haber, E., Jemielniak, D., Kurasiński, A., & Przegalińska, A. (2025). Using AI in Academic Writing and Research: A Complete Guide to Effective and Ethical Academic AI (1st ed.). Palgrave Macmillan. https://doi.org/10.1007/978-3-031-91705-9
++ Borgman, C. L. (2015). *Big Data, Little Data, No Data: Scholarship in the Networked World.* 1st ed. MIT Press. https://doi.org/10.7551/mitpress/9963.001.0001.
++ Gorostiza-Cerviño, A., Serna-Ortega, Á., Moreno-Cabanillas, A., & Castillo-Esparcia, A. (2023). *Navigating the Digital Sphere: Exploring Websites, Social Media, and Representation Costs—A European Union Case Study.* Social Sciences (Basel), 12(11), 616. https://doi.org/10.3390/socsci12110616
++ Haber, E., Jemielniak, D., Kurasiński, A., & Przegalińska, A. (2025). *Using AI in Academic Writing and Research: A Complete Guide to Effective and Ethical Academic AI* (1st ed.). Palgrave Macmillan. https://doi.org/10.1007/978-3-031-91705-9
 + Papadakis, S. (2024). *IoT, AI, and ICT for Educational Applications : Technologies to Enable Education for All* (1st ed. 2024.). Springer Nature Switzerland. https://doi.org/10.1007/978-3-031-50139-5
 + Rocca, R., Lawall, K., Tsakiris, M. et al. (2024). *Communicating Europe: a computational analysis of the evolution of the European Commission’s communication on Twitter.* J Comput Soc Sc 7, 1223–1274. https://doi.org/10.1007/s42001-024-00271-w
 + Sernani, P., Cossiri, A., Di Cosimo, G., & Frontoni, E. (2025). *Analyzing Digital Political Campaigning Through Machine Learning: An Exploratory Study for the Italian Campaign for European Union Parliament Election in 2024.* Computers (Basel), 14(4), 126. https://doi.org/10.3390/computers14040126

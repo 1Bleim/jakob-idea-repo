@@ -14,8 +14,8 @@
         <p>On this website you will find two things: </p>
             <li>An overview of my program, European Studies, along with the content of Assignment 1 which explains digital technologies and its use in my field of studies.</li>
             <li>Explainations on how I designed this website</li>
-        <p> Before you take a look at them here is a piece of advice!</p>
-        <h2 id="advice"></h2>
+        <p> Before you take a look at them here is a random fact about cats!</p>
+        <h2 id="fact"></h2>
     </header>
     <div class="container">
         <p>Select a page:</p>
@@ -28,12 +28,12 @@
     </div>
 </body>
 <script>
-  async function getAdvice(){
-    const response = await fetch('https://api.adviceslip.com/advice');
+  async function getFact(){
+    const response = await fetch('https://catfact.ninja/fact');
     const data = await response.json();
-    document.getElementById("advice").innerHTML = data.slip.advice;
+    document.getElementById("fact").innerHTML = data.fact;
   }
-  getAdvice();
+  getFact();
 </script>
 
 </html>

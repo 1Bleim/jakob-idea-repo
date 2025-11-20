@@ -39,7 +39,7 @@
 
      <div class="dropdown">
         <input type="checkbox" id="drop7" onclick="if(this.checked) loadMarkdown('picture.md', 'content7')">
-        <label for="drop7"><h3>Inserting a Picture</h3></label>
+        <label for="drop7"><h3>Inserting Pictures and Links</h3></label>
         
         <div class="content">
         <div id="content7"></div>
@@ -82,6 +82,12 @@
     const response = await fetch(filename);
     const text = await response.text();
     document.getElementById(componentId).innerHTML = marked.parse(text);
-}
+  }
+  async function getFact(){
+    const response = await fetch('https://catfact.ninja/fact');
+    const data = await response.json();
+    document.getElementById("fact").innerHTML = data.fact;
+  }
+  getFact();
 </script>
 </html>
