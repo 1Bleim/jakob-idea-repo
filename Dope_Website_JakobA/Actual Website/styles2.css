@@ -82,8 +82,8 @@ body {
 .button-group {
     display: flex;
     flex-direction: column;
-    gap: 20px;              /* spacing between boxes */
-    align-items: center;    /* center the boxes */
+    gap: 20px;
+    align-items: center;    
     margin-top: 40px;
 }
 

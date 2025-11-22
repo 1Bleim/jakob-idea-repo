@@ -6,4 +6,4 @@ Exercise 1 and 2 contain the HTML and CSS files of the websited we did during th
 
 In the "Actual Website" folder you can find the final project, consisting of 11 Markdown files, 99 Images, 3 HTML files and 1 CSS file. 
 
-This page is also available as a Github Pages site. 
+You can load this page by hosting it yourself on a programme like VS Code or through Github Pages. 
