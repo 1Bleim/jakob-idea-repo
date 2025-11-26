@@ -1,4 +1,4 @@
-HTML Structure
+# HTML Structure
 
 For my website, I decided to have a landingpage that links to the other two pages with content, meaning I’d have to use 3 different HTML files. All of them however have a very similar structure:
 header: short introduction

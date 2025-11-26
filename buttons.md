@@ -1,3 +1,5 @@
+# Buttons
+
 To create the buttons, I first looked at the course material and the exercises we did in class. There, I found a button that loads markdown files, but I wanted to experiment a bit and make my buttons redirect you to different parts of the page. So I went for a quick Google search and found this guide on [stackoverflow.com](https://stackoverflow.com/questions/2906582/how-do-i-create-an-html-button-that-acts-like-a-link) which gave me this structure to work with:
 
 > < a href="*link*" class="btn"> *text* < /a>
