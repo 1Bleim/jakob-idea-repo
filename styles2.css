@@ -2,10 +2,9 @@ h1 {
   font-size: 2.25rem;
   font-weight: bold;
   text-align: center;
-  margin: 2rem 0 1.5rem 0;   /* space above/below */
   color: darkblue;
   text-transform: uppercase;
-  position: relative;        /* allows us to add underline effect */
+  margin: 2rem 0 1.5rem 0;
 }
 
 body {
@@ -13,17 +12,16 @@ body {
   line-height: 1.5;
   background-color: rgb(231, 197, 164);
   color: #303030;
-  margin: 0;
   padding: 2rem 0;
 }
 
 .main-content {
   max-width: 1000px;
-  margin: 0 auto;           /* center horizontally */
-  padding: 2rem;            /* space inside the container */
-  background-color: #ffffff; /* white content area */
-  border-radius: 10px;       /* rounded corners */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* subtle shadow for depth */
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .dropdown input[type="checkbox"] {
@@ -65,18 +63,17 @@ body {
   transition: background-color 0.3s ease; 
 }
 .dropdown label:hover {
-  background-color: #0059b3; /* lighter blue */
+  background-color: #0059b3; 
   }
 
   .dropdown label::after {
-  content: "▸";        /* right-pointing arrow */
+  content: "▸";
   font-size: 1rem;
   transition: transform 0.3s ease;
 }
 
-/* Rotate the arrow when the box is open */
 .dropdown input[type="checkbox"]:checked + label::after {
-  transform: rotate(90deg); /* points down when open */
+  transform: rotate(90deg);
 }
 
 .button-group {

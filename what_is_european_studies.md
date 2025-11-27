@@ -6,9 +6,6 @@ European Studies is an **interdisciplinary** field of study, combining political
 
 Image Source: https://eugovlab.com/where-to-study-european-studies-top-institutions-for-aspiring-eu-policy-professionals
 
-## Origins
-European Studies emerged in the **mid-20th century** alongside the creation of the European Coal and Steel Community (ECSC), which was the first cornerstone in European cooperation after WWII. The ECSC project would also evolve over the next decades to become the European Union we know today. Initially, the academic field focused on the understanding of **European integration and EU institutions** but over time it expanded its scope, including important topics like Europeanization, nationalism, regionalism, and external relations.
-
 ## Core Research Themes
 The research in the field of European Studies is as vast as the many disciplines that shape it. This section will only list a couple of them to grant an overview [(Aarhus University, 2021)](https://eddiprod.au.dk/EDDI/webservices/DokOrdningService.cfc?method=visGodkendtOrdning&dokOrdningId=16715&sprog=en):
 + **European Identity**: How is it constructed and contested? Who belongs to Europe and who doesn't? What does it mean to be European?

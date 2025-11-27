@@ -1,11 +1,11 @@
-HTML Structure
+# HTML Structure
 
 For my website, I decided to have a landingpage that links to the other two pages with content, meaning I’d have to use 3 different HTML files. All of them however have a very similar structure:
 header: short introduction
 body: markdown files that are being loaded with JavaScript 
 button: used to go to the different pages (explained in another section)
 
-My HTML Structure is almost entirely based on the course material found on Brightspace. Ideas and implementation of basic HTML syntax was also found and taken from [w3schools.com](https://www.w3schools.com/html/default.asp). I first loaded the default structure using ! and TAB and added a line with 
+My HTML Structure is almost entirely based on the course material found on Brightspace. Ideas and implementation of basic HTML syntax were also found and taken from [w3schools.com](https://www.w3schools.com/html/default.asp). I first loaded the default structure using ! and TAB and added a line with 
 
 > < link rel="stylesheet" href="styles2.css"> 
 

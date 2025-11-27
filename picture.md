@@ -1,6 +1,6 @@
 # Inserting Pictures and Links
 
-This was pretty straightforward. On [markdownguide.org](markdownguide.org) I found some useful functions that allow me to include pictures and also directly link to my sources in the markdown file. 
+This was pretty straightforward. On [markdownguide.org](markdownguide.org), I found some useful functions that allow me to include pictures and also directly link to my sources in the markdown file. 
 
 For the pictures specifically, I first take the file and save it in a folder of my project. In my case, I just created an extra folder for all pictures. To then load the picture when the markdown file is displayed, I used the following function ![alt text](path of the image)
 For the links, the function is quite similar: ["text that will be marked"](link to the website). 
